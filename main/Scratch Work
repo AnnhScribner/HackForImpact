@@ -1,0 +1,37 @@
+Ideas:
+    1. THEME 1: Watermark content detected as AI (pillow) 0. text > i. image > ii. video > iii. audio
+    2. THEME 2: Cookies/tracker extension (uBlock) i. education ii. notification
+Image Processing	 -        library/tool Pillow (PIL)	                -      Edit, watermark, resize images
+Metadata Check	-  library/ tool ExifTool-Python or Piexif	-       To check authenticity data (C2PA or metadata)
+
+
+Watermark Project:
+    think of audience? older people more vulnerable to deepfakes
+    prevent scams, misinformation
+    Step 1: Find image to test on - control/original and corresponding AI-altered image
+    Step 2: Find & learn (find useful methods/functions) model to import/use for detection - TensorFlow
+    Step 3: Apply model to test image
+    Step 4: Generalize our project for use outside of test-case
+    Iteration: Apply to video, then audio (OpenAI Whisper?)
+    -- percentage to check how much it can contain AI
+    -- Tell users with simple risk tags(Especially for the elderly, it is clear at a glance）and summarize the evidence.
+    --
+    --
+
+-- argumentation, alteration
+image differencing:
+
+- OpenCV can be employed to detect alterations in images by
+comparing them with a reference or original image:
+    This method involves subtracting pixel values of two images.
+    The cv2.absdiff function in OpenCV calculates the absolute difference between
+    corresponding pixels, highlighting areas where changes have occurred.
+
+- Data augmentation: https://www.tensorflow.org/tutorials/images/data_augmentation#data_augmentation_2
+You can use the Keras preprocessing layers for data augmentation as well,
+such as tf.keras.layers.RandomFlip and tf.keras.layers.RandomRotation.
+
+
+Accuracy with TensorFlow: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/Accuracy
+
+AI Image Detector https://github.com/guyfloki/ai-image-detector

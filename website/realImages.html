@@ -1,0 +1,45 @@
+<!--
+# Anna Scribner
+# Michael Gilbert
+# Muskan Gupta
+# Roger Tang
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css">
+      <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+    <title>Real Images</title>
+
+    <style>
+        .body{
+        display: flex;
+        flex-direction: column; /* vertical */
+        align-items: center; /* center horizontally */
+        gap: 20px; /* space between images */
+        padding: 20px;
+        }
+        .pics{
+        width: 200px; /* fix image width */
+        height: 200px; /* fix image height */
+        object-fit: cover; /* make sure image fits nicely */
+        padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+
+        <div><img src="../images/FAKE/dogFake.jpg" alt="AI Golden Retriever" width="200" height="200"></div>
+        <div><img src="../images/FAKE/fakeBrain.jpg" alt="AI Brain" width="200" height="200"></div>
+        <div><img src="../images/REAL/puppy.jpeg" alt="Real Puppy" width="200" height="200"></div>
+
+        <script type="py" config='{"packages": ["arrr"]}'>
+
+        </script>
+
+</body>
+</html>
