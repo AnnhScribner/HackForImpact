@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Detector – Image Test Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1>AI Detector – Test Image Gallery</h1>
+
+<div class="gallery">
+    <!-- Each image with optional alt text and description -->
+    <figure>
+        <img src="images/sample/dogFake.jpg" alt="AI-generated golden retriever" />
+        <figcaption>AI Golden Retriever</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/sample/fakeBrain.jpg" alt="AI-generated brain" />
+        <figcaption>AI Brain</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/sample/puppy.jpeg" alt="Real puppy" />
+        <figcaption>Real Puppy</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/sample/fakeHuman2.png" alt="AI-generated human" />
+        <figcaption>AI Human</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/sample/fakePuppy.jpg" alt="AI-generated puppy" />
+        <figcaption>AI Puppy</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/sample/seattlePoliceReal.png" alt="Real police officer" />
+        <figcaption>Real Police Officer</figcaption>
+    </figure>
+</div>
+
+</body>
+</html>

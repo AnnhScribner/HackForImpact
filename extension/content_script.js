@@ -1,8 +1,3 @@
-// # Anna Scribner
-// # Michael Gilbert
-// # Muskan Gupta
-// # Roger Tang
-
 async function processImages() {
     let images = document.querySelectorAll('img');
 

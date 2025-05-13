@@ -1,4 +1,4 @@
-# main.py
+# inference.py
 
 import argparse
 import torch

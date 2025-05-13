@@ -171,7 +171,7 @@ If the model weights path is not specified, the script defaults to the latest mo
 For predictions on individual images, use the `main.py` script. Specify the image path and, if needed, a specific model weight file:
 
 ```bash
-python src/main.py /path/to/your/image.jpg --weights_folder=/path/to/model_weight
+python src/inference.py /path/to/your/image.jpg --weights_folder=/path/to/model_weight
 ```
 
 Without a specified model weight path, the script defaults to the latest model in the `./models` folder. The script outputs the predicted class and associated probabilities.

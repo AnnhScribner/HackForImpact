@@ -3,7 +3,7 @@
 # Muskan Gupta
 # Roger Tang
 
-# main.py
+# inference.py
 
 import argparse
 import torch
