@@ -108,4 +108,4 @@ Then open your browser and go to:
 
 ## 👩🏻‍💻 Author
 
-Created by **Anna Scribner** and team during a Hackathon.
+Created by **Anna Scribner**, **[Michael Gilbert](github.com/mjgilbert20)**, **[Muskan Gupta](https://github.com/gmuskan95)**, and **Roger Tang** during NSC Hack4Impact - we won 1st prize!
